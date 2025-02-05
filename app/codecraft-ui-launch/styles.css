@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header .logo img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.features {
+  padding: 2rem;
+  background: #fff;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features li {
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+}
+
+.cta {
+  text-align: center;
+  padding: 2rem;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+.cta button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta button:hover {
+  background-color: #6a11cb;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .features h2, .cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .features li {
+    font-size: 1rem;
+  }
+
+  .cta button {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+  }
+}
